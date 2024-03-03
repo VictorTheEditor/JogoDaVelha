@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Velha</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/mediaQuerry.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <article class="configAudio">
+
+        <audio class="audio" controls>
+            <source src="assets/audio/Pix_3023_Mars_Wars_mJ3mDuM-dAc_140.mp3" type="audio/mp3">
+        </audio>
+
+        <button class="btnAudio">
+            <img  class="btnAudioMenu" src="assets/images/icons/audioOFF.png">
+        </button>
+
+        <h2><a href="https://www.youtube.com/watch?v=mJ3mDuM-dAc" target="_blank">Pix - 3023 Mars Wars</a></h2>
+        
+    </article>
+
+    <div class="FundoBlur"></div>
+    <section class="container-login">
+        <div class="login">
+            <h1>Jogo Da Velha</h1>
+
+            <article>
+                <span>
+                    <p>Player X:</p>
+                    <input type="text" class="inputPlayer1">
+                </span>
+
+                <span>
+                    <p>Player O:</p>
+                    <input type="text" class="inputPlayer2">
+                </span>
+            </article>
+
+            <article>
+                <button class="enterGame">JOGAR</button>
+            </article>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------>
+
+
+    <section class="container-game">
+        <h1>Jogo Da Velha</h1>
+
+        <article class="container-players">
+            <span class="players"> Player X:
+                <h2 class="player1"></h2>
+            </span>
+            
+            <span class="players"> Player O:
+                <h2 class="player2"></h2>
+            </span>
+        </article>
+
+        <table class="table">
+            <tr>
+                <td class="a1 bloco"></td>
+                <td class="a2 bloco"></td>
+                <td class="a3 bloco"></td>
+            </tr>
+
+            <tr>
+                <td class="b1 bloco"></td>
+                <td class="b2 bloco"></td>
+                <td class="b3 bloco"></td>
+            </tr>
+
+            <tr>
+                <td class="c1 bloco"></td>
+                <td class="c2 bloco"></td>
+                <td class="c3 bloco"></td>
+            </tr>
+        </table>
+
+        <div>
+            <button class="reiniciar">REINICIAR</button>
+            <button class="sair">SAIR</button>
+        </div>
+
+    </section>
+
+    <section class="creditos">
+        <article>
+            <h2>Background: <a href="https://cypresspixill.wordpress.com/2015/09/01/reach-for-the-stars/" target="_blank">Stars PixelArt Gif</a>
+            </h2>
+
+            <h2>Music: <a href="https://www.youtube.com/watch?v=mJ3mDuM-dAc" target="_blank">Pix - 3023 Mars Wars</a>
+            </h2>
+
+            <h2>Icon AudioON: <a target="_blank" href="https://www.freepik.com/icon/speaker_465293#fromView=search&page=1&position=35&uuid=9b820ce2-9b46-40bd-9f76-609f72d2601b">Icon by Freepik</a></h2>
+
+            <h2>Icon AudioOFF <a target="_blank" href="https://www.freepik.com/icon/mute_465294#fromView=search&page=1&position=39&uuid=da73fcfe-ba7f-481f-8d33-0a3ae5dec1b5">Icon by Freepik</a></h2>
+
+            <h2>Font Pixellari:<a target="_blank" href="https://www.dafont.com/pt/pixellari.font">Pixellari por Zacchary Dempsey-Plante</a></h2>
+
+            <button onclick="voltar()">Voltar</button>
+        </article>
+
+    </section>
+    <script src="assets/js/creditos.js"></script>
+    <script src="assets/js/index.js"></script>
+   
+</body>
+</html>
